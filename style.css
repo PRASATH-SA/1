@@ -1,0 +1,254 @@
+ /* ============================================================================================ */
+        /* ==========================================Workouts-for-my-mind============================== */
+        /* ============================================================================================ */
+        h1
+        {
+            text-align: center;
+            text-shadow: 4px 4px 5px  yellow;
+        }
+        body
+        {
+            background-color: rgb(55, 138, 165);
+
+        }
+
+        /* ============================================================================================= */
+        /*==================================================== Whole Calculator ======================== */
+        /* ============================================================================================= */
+        .calc
+        {
+            align-items: center;
+            border:7px double rgba(255, 255, 255, 0.26);
+            margin-left: 40%;
+            margin-top:10%;
+            width:200px;
+            height: 237px;
+            padding-left: 5px;
+            padding-top:5px;
+            padding-bottom:5px;
+            transition: 0.5s;
+        }
+        .calc
+        {
+            background-color:rgba(214, 42, 42, 0.582);
+            background: radial-gradient(blue,black);
+        }
+        /* ============================================================================================= */
+        /*==================================================== Text-box ================================ */
+        /* ============================================================================================= */
+        #in
+        {
+            height:30px;
+            width:186px;
+            transition: 0.5s;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        /* ============================================================================================= */
+        /* ==================================================Hovers===================================== */
+        /* ============================================================================================= */
+        .calc:hover
+        {
+            background:radial-gradient(yellow,black);
+        }
+
+        /* ============================================================================================= */
+        /*==================================================== Buttons ================================= */
+        /* ============================================================================================= */
+        #btnE
+        {
+            position:absolute;
+            height: 108px;
+            width:33px;
+            transition: 0.5s;
+            color:black;
+            margin-left: 3px;
+            margin-top:-28px;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btnX
+        {
+            position:absolute;
+            height: 40px;
+            width:33px;
+            transition: 0.5s;
+            margin-top: 9px;
+            margin-left:2px;
+            font-weight: bolder;
+            border-radius: 20px;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btnB
+        {
+            position:absolute;
+            height: 40px;
+            width:33px;
+            transition: 0.5s;
+            margin-top: 3px;
+            margin-left:2px;
+            border-radius: 20px;
+            font-size:20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn1
+        {
+            height: 35px;
+            width:50px;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: 0.5s;
+            margin-top: 5px;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn2
+        {
+            height: 35px;
+            width:50px;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: 0.5s;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn3
+        {
+            height: 35px;
+            width:50px;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: 0.5s;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn4
+        {
+            height: 35px;
+            width:50px;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: 0.5s;
+            margin-top: 5px;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn5
+        {
+            height: 35px;
+            width:50px;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: 0.5s;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn6
+        {
+            height: 35px;
+            width:50px;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: 0.5s;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn7
+        {
+            height: 35px;
+            width:50px;
+            font-family:Inkfree;
+            transition: 0.5s;
+            margin-top: 5px;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn8
+        {
+            height: 35px;
+            width:50px;
+            transition: 0.5s;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn9
+        {
+            height: 35px;
+            width:50px;
+            transition: 0.5s;
+            font-weight: bolder;
+            font-size: 20px;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn0
+        {
+            height: 35px;
+            width:50px;
+            transition: 0.5s;
+            margin-top: 5px;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btn00
+        {
+            height: 35px;
+            width:50px;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: 0.5s;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btnA
+        {
+            height: 35px;
+            width:50px;
+            transition: 0.5s;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btnS
+        {
+            height: 35px;
+            width:50px;
+            transition: 0.5s;
+            margin-top: 5px;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btnM
+        {
+            height: 35px;
+            width:50px;
+            transition: 0.5s;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            background:radial-gradient(yellow,black);
+        }
+        #btnD
+        {
+            height: 35px;
+            width:50px;
+            transition: 0.5s;
+            font-weight: bolder;
+            font-size: 20px;
+            border-radius: 20px;
+            background:radial-gradient(yellow,black);
+        }
